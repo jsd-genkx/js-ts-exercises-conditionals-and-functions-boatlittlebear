@@ -7,3 +7,16 @@
 // TODO BONUS: Rewrite with if
 
 const num = 15;
+
+if (num % 3 === 0 && num % 5 === 0) {
+    console.log("FizzBuzz");
+}
+if (num % 3 === 0 && num % 5 !== 0) {
+    console.log("Fizz");
+}
+if (num % 5 === 0 && num % 3 !== 0) {
+    console.log("Buzz");
+}
+if (num % 3 !== 0 && num % 5 !== 0) {
+    console.log("Not divisible by 3 or 5");
+}
