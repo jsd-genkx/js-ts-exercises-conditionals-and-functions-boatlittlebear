@@ -2,20 +2,20 @@
 // TODO BONUS: Use object lookup
 
 const fruit: string = "banana";
+const lowercasedString = fruit.toLowerCase();
+switch (lowercasedString) {
+  case "apple":
+    console.log("An apple a day keeps the doctor away.");
+    break;
 
-switch (fruit) {
-    case "apple":
-        console.log("An apple a day keeps the doctor away.");
-        break;
+  case "banana":
+    console.log("Banana is good for potassium.");
+    break;
 
-    case "banana":
-        console.log("Banana is good for potassium.");
-        break;
+  case "orange":
+    console.log("Oranges are full of vitamin C.");
+    break;
 
-    case "orange":
-        console.log("Oranges are full of vitamin C.");
-        break;
-
-    default:
-        console.log("Unknown fruit.");
+  default:
+    console.log("Unknown fruit.");
 }
